@@ -1,0 +1,173 @@
+body{
+    background: #333;
+    padding:50px;
+    font-family: 'Open Sans', sans-serif;
+    letter-spacing: 4px;
+}
+
+h1,h2,h3,h4{
+    text-transform: uppercase;
+    font-weight: 800;
+    letter-spacing: 0;
+}
+
+.social-container{
+}
+
+.social-container .links {
+    margin-bottom: 40px;
+    text-align: center;
+}
+.social-container .links a {
+    margin: 0 10px;
+    color: #fff;
+    text-decoration: none;
+    font-size: 21px;
+    font-weight: bold;
+    text-shadow: 0px 2px 3px #000;
+}
+.social-container .links a:hover {
+    color: #ED452A;
+}
+
+.content{
+    color:#fff;
+    background: #220404;
+}
+
+/* header */
+
+.header{
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: 600;
+    margin-bottom: 32px;
+    padding: 80px 0 20px 0;
+}
+
+.header h1{
+    font-size: 120px;
+    letter-spacing: 4px;
+    color:#fff;
+    margin:0 0 15px 0;
+    font-weight: 700;
+
+}
+
+.header .lead{
+    font-size: 21px;
+    font-weight: 600;
+}
+
+/* graphic */
+
+.graphic{
+    position: relative;
+}
+
+.graphic .price{
+    width:25%;
+    position: absolute;
+    top:0;
+    left:0;
+}
+.graphic img{
+    width:100%;
+    height: auto;
+}
+
+/* menu */
+
+.menu{
+    background: #BA9775 url(paper-bag.jpg) repeat-y;
+    min-height: 400px;
+    padding:50px;
+    text-align: center;
+    color:#fff;
+    text-transform: uppercase;
+    font-size: 21px;
+    letter-spacing: 4px;
+}
+
+.menu hr{
+    border-top: rgba(0,0,0,0.25) 1px solid;
+    margin: 50px 0;
+}
+
+.menu h2{
+    font-size: 72px;
+    letter-spacing: 4px;
+    color:#220404;
+    margin:0 0 15px 0;
+}
+.menu .lead{
+    font-size: 28px;
+    letter-spacing: 4px;
+    color:#220404;
+    margin:0 0 15px 0;
+    font-weight: 800;
+    text-shadow: none;
+}
+
+.menu h3{
+    font-size: 21px;
+    letter-spacing: 4px;
+    color:#97381F;
+    margin:50px 0 15px 0;
+}
+
+.menu h3 small{
+    color:#220404;
+    font-weight: 800;
+}
+.menu p{
+
+    text-shadow: 0 0 0.1em rgba(0,0,0,0.25);
+}
+
+.menu .price{
+    margin-top:50px;
+}
+
+.menu .price small{
+    display: block;
+    font-size: 0.5em;
+}
+
+.menu .callout{
+    background: url(callout.png);
+    padding:50px;
+}
+
+.menu .extras{
+}
+
+.menu .extras small{
+    font-size: 12px;
+    color:#220404;
+    font-weight: 700;
+    text-shadow: none;
+    display: block;
+}
+
+@media only screen and (max-width : 992px) {
+    .menu .extras{
+        text-align: center;
+    }
+}
+
+.menu .extras li{
+    margin-bottom: 15px;
+}
+/* footer */
+
+footer{
+    padding:50px;
+}
+
+/* bottom */
+
+.bottom{
+    text-align: center;
+    padding:15px;
+}
